@@ -15,7 +15,7 @@
 
 Please use the latest Node.js avaliable on [Nodejs.org](https://nodejs.org/en/)
 
-####Clone the project
+#### Clone the project
 
 To clone the boilerplate, please use the following commands:
 
@@ -25,7 +25,7 @@ cd node-typescript-mongodb-swagger-boilerplate
 yarn install
 ```
 
-##Available Scripts
+## Available Scripts
 
 - `yarn watch:window` watch mode to automatically re-run if detected changed
 - `yarn build` build the project
