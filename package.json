@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:window": "set NODE_ENV=development && concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
+    "watch:windows": "set NODE_ENV=development && concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "watch:mac": "NODE_ENV=development concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
     "watch-node": "nodemon -r dotenv/config build/server.js",
     "test": "mocha build/test/index.js --timeout 20000 --require build/test/hooks.js --exit --bail",
-    "test:window": "set NODE_ENV=test && tsc && mocha -r dotenv/config build/test/index.js --timeout 20000 --require build/test/hooks.js --exit --bail",
+    "test:windows": "set NODE_ENV=test && tsc && mocha -r dotenv/config build/test/index.js --timeout 20000 --require build/test/hooks.js --exit --bail",
     "test:mac": "tsc && NODE_ENV=test mocha -r dotenv/config build/test/index.js --timeout 20000 --require build/test/hooks.js --exit --bail"
   },
   "keywords": [],
