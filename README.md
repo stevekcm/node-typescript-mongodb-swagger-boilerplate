@@ -31,6 +31,6 @@ yarn install
 - `yarn build` build the project
 - `yarn test:window` run the test under windows system
 
-##License
+## License
 
 Licensed under the APLv2. See the [LICENSE](https://github.com/stevekwokdev/node-typescript-mongodb-swagger-boilerplate/blob/origin/master/LICENSE) file for details.
